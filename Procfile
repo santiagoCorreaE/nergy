@@ -1,0 +1,1 @@
+web: gunicorn nergy.wsgi --log-file -
