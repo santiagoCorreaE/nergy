@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 import os
 # Update database configuration with $DATABASE_URL.
 import dj_database_url
-from decouple import config
+from decouple import Csv, config
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
